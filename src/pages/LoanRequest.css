@@ -1,0 +1,89 @@
+.loan-request-container {
+  padding: 2rem;
+  background-color: #f5f5f5;
+  min-height: calc(100vh - 64px);
+}
+
+.loan-request-card {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.loan-request-card h2 {
+  color: #008170;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.section {
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #eee;
+}
+
+.section h3 {
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #333;
+  font-weight: 500;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.form-group input[type="file"] {
+  padding: 0.5rem;
+  border: none;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #008170;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 1rem;
+  background-color: #008170;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 1rem;
+}
+
+.submit-button:hover {
+  background-color: #006957;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .loan-request-container {
+    padding: 1rem;
+  }
+  
+  .loan-request-card {
+    padding: 1.5rem;
+  }
+}
